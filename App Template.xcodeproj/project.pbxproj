@@ -10,24 +10,36 @@
 		36B31A181A4A59EF723EF496 /* Pods_App_Template_App_TemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F06F2BDECDA9E690A79F6D /* Pods_App_Template_App_TemplateUITests.framework */; };
 		C4D3A1D8F7283995F519D1A5 /* Pods_App_TemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D08805447128F019B453E7 /* Pods_App_TemplateTests.framework */; };
 		CB5D678F2CCB41039B9B2426 /* Pods_App_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E412A684949E6FF3A0714D4 /* Pods_App_Template.framework */; };
-		EA11122E28F1B8EC00AA901F /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11122728F1B8EC00AA901F /* SettingsCoordinator.swift */; };
-		EA11122F28F1B8EC00AA901F /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11122828F1B8EC00AA901F /* TabBarCoordinator.swift */; };
-		EA11123028F1B8EC00AA901F /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11122928F1B8EC00AA901F /* HomeCoordinator.swift */; };
-		EA11123128F1B8EC00AA901F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11122A28F1B8EC00AA901F /* AppCoordinator.swift */; };
-		EA11123228F1B8EC00AA901F /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11122C28F1B8EC00AA901F /* AppStoryboards.swift */; };
-		EA11123328F1B8EC00AA901F /* Storyboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11122D28F1B8EC00AA901F /* Storyboard+Ext.swift */; };
 		EA11123928F1BA3800AA901F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA11123628F1BA3800AA901F /* Main.storyboard */; };
 		EA11125D28F1BBA700AA901F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11125B28F1BBA700AA901F /* HomeViewController.swift */; };
 		EA11125E28F1BBA700AA901F /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11125928F1BBA700AA901F /* SettingsViewModel.swift */; };
 		EA11125F28F1BBA700AA901F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11125C28F1BBA700AA901F /* HomeViewModel.swift */; };
 		EA11126028F1BBA700AA901F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11125828F1BBA700AA901F /* SettingsViewController.swift */; };
 		EA11126228F1BBED00AA901F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA11126128F1BBED00AA901F /* LaunchScreen.storyboard */; };
-		EA11126528F1BF9200AA901F /* BookmarksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11126428F1BF9200AA901F /* BookmarksCoordinator.swift */; };
-		EA11126728F1BF9F00AA901F /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11126628F1BF9F00AA901F /* ProfileCoordinator.swift */; };
 		EA11126B28F1BFEF00AA901F /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11126A28F1BFEF00AA901F /* BookmarksViewController.swift */; };
 		EA11126D28F1BFFD00AA901F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11126C28F1BFFD00AA901F /* ProfileViewController.swift */; };
 		EA11126F28F1C00D00AA901F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11126E28F1C00D00AA901F /* ProfileViewModel.swift */; };
 		EA11127128F1C01300AA901F /* BookmarksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11127028F1C01300AA901F /* BookmarksViewModel.swift */; };
+		EA11127328F1D8E100AA901F /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11127228F1D8E100AA901F /* UsersModel.swift */; };
+		EA11127628F1D91300AA901F /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11127528F1D91300AA901F /* NetworkManger.swift */; };
+		EA11127928F1DBDA00AA901F /* UIVC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11127828F1DBDA00AA901F /* UIVC+Ext.swift */; };
+		EA11127B28F1DBE900AA901F /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11127A28F1DBE900AA901F /* UITableView+Ext.swift */; };
+		EA11127E28F1DE8200AA901F /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11127C28F1DE8200AA901F /* UsersTableViewCell.swift */; };
+		EA11127F28F1DE8200AA901F /* UsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA11127D28F1DE8200AA901F /* UsersTableViewCell.xib */; };
+		EA11128128F1E04B00AA901F /* UsersTableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11128028F1E04B00AA901F /* UsersTableView+Ext.swift */; };
+		EA11128528F1E2F700AA901F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11128428F1E2F700AA901F /* Constants.swift */; };
+		EA11128728F1E3DB00AA901F /* NewtworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11128628F1E3DB00AA901F /* NewtworkReachability.swift */; };
+		EA11128928F1E55300AA901F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11128828F1E55300AA901F /* MainViewController.swift */; };
+		EA11128B28F1E8DD00AA901F /* SearchBar+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11128A28F1E8DD00AA901F /* SearchBar+Ext.swift */; };
+		EA11128D28F1EABA00AA901F /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11128C28F1EABA00AA901F /* RequestRouter.swift */; };
+		EA11129928F1F38E00AA901F /* Storyboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11129228F1F38E00AA901F /* Storyboard+Ext.swift */; };
+		EA11129A28F1F38E00AA901F /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11129828F1F38E00AA901F /* TabBarCoordinator.swift */; };
+		EA11129B28F1F38E00AA901F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11128F28F1F38E00AA901F /* AppCoordinator.swift */; };
+		EA11129C28F1F38E00AA901F /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11129728F1F38E00AA901F /* HomeCoordinator.swift */; };
+		EA11129D28F1F38E00AA901F /* BookmarksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11129628F1F38E00AA901F /* BookmarksCoordinator.swift */; };
+		EA11129E28F1F38E00AA901F /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11129528F1F38E00AA901F /* SettingsCoordinator.swift */; };
+		EA11129F28F1F38E00AA901F /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11129428F1F38E00AA901F /* ProfileCoordinator.swift */; };
+		EA1112A028F1F38E00AA901F /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11129128F1F38E00AA901F /* AppStoryboards.swift */; };
 		EAA031A328F1B722004D035D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA031A228F1B722004D035D /* AppDelegate.swift */; };
 		EAA031A528F1B722004D035D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA031A428F1B722004D035D /* SceneDelegate.swift */; };
 		EAA031AD28F1B722004D035D /* App_Template.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAA031AB28F1B722004D035D /* App_Template.xcdatamodeld */; };
@@ -62,24 +74,36 @@
 		85D08805447128F019B453E7 /* Pods_App_TemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_TemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3E57401497F854938687AE /* Pods-App Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Template.release.xcconfig"; path = "Target Support Files/Pods-App Template/Pods-App Template.release.xcconfig"; sourceTree = "<group>"; };
 		CC16EEE0A57A8D95BFDDD798 /* Pods-App Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Template.debug.xcconfig"; path = "Target Support Files/Pods-App Template/Pods-App Template.debug.xcconfig"; sourceTree = "<group>"; };
-		EA11122728F1B8EC00AA901F /* SettingsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
-		EA11122828F1B8EC00AA901F /* TabBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
-		EA11122928F1B8EC00AA901F /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
-		EA11122A28F1B8EC00AA901F /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		EA11122C28F1B8EC00AA901F /* AppStoryboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
-		EA11122D28F1B8EC00AA901F /* Storyboard+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Ext.swift"; sourceTree = "<group>"; };
 		EA11123728F1BA3800AA901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/Coordinator-Pattern-Example-main/Cordinator Pattern Sample/Storyboards/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		EA11125828F1BBA700AA901F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		EA11125928F1BBA700AA901F /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		EA11125B28F1BBA700AA901F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EA11125C28F1BBA700AA901F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EA11126128F1BBED00AA901F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA11126428F1BF9200AA901F /* BookmarksCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksCoordinator.swift; sourceTree = "<group>"; };
-		EA11126628F1BF9F00AA901F /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		EA11126A28F1BFEF00AA901F /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
 		EA11126C28F1BFFD00AA901F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		EA11126E28F1C00D00AA901F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		EA11127028F1C01300AA901F /* BookmarksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewModel.swift; sourceTree = "<group>"; };
+		EA11127228F1D8E100AA901F /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		EA11127528F1D91300AA901F /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		EA11127828F1DBDA00AA901F /* UIVC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVC+Ext.swift"; sourceTree = "<group>"; };
+		EA11127A28F1DBE900AA901F /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		EA11127C28F1DE8200AA901F /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		EA11127D28F1DE8200AA901F /* UsersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersTableViewCell.xib; sourceTree = "<group>"; };
+		EA11128028F1E04B00AA901F /* UsersTableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsersTableView+Ext.swift"; sourceTree = "<group>"; };
+		EA11128428F1E2F700AA901F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EA11128628F1E3DB00AA901F /* NewtworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtworkReachability.swift; sourceTree = "<group>"; };
+		EA11128828F1E55300AA901F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EA11128A28F1E8DD00AA901F /* SearchBar+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBar+Ext.swift"; sourceTree = "<group>"; };
+		EA11128C28F1EABA00AA901F /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		EA11128F28F1F38E00AA901F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		EA11129128F1F38E00AA901F /* AppStoryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
+		EA11129228F1F38E00AA901F /* Storyboard+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Ext.swift"; sourceTree = "<group>"; };
+		EA11129428F1F38E00AA901F /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		EA11129528F1F38E00AA901F /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		EA11129628F1F38E00AA901F /* BookmarksCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksCoordinator.swift; sourceTree = "<group>"; };
+		EA11129728F1F38E00AA901F /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		EA11129828F1F38E00AA901F /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		EAA0319F28F1B722004D035D /* App Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA031A228F1B722004D035D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAA031A428F1B722004D035D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,38 +170,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		EA11122528F1B8EC00AA901F /* NavigationLayer */ = {
-			isa = PBXGroup;
-			children = (
-				EA11122A28F1B8EC00AA901F /* AppCoordinator.swift */,
-				EA11122628F1B8EC00AA901F /* TabBarCoordinators */,
-				EA11122B28F1B8EC00AA901F /* Storyboard */,
-			);
-			name = NavigationLayer;
-			path = "../../../Downloads/Coordinator-Pattern-Example-main/Cordinator Pattern Sample/NavigationLayer";
-			sourceTree = "<group>";
-		};
-		EA11122628F1B8EC00AA901F /* TabBarCoordinators */ = {
-			isa = PBXGroup;
-			children = (
-				EA11122828F1B8EC00AA901F /* TabBarCoordinator.swift */,
-				EA11122928F1B8EC00AA901F /* HomeCoordinator.swift */,
-				EA11122728F1B8EC00AA901F /* SettingsCoordinator.swift */,
-				EA11126628F1BF9F00AA901F /* ProfileCoordinator.swift */,
-				EA11126428F1BF9200AA901F /* BookmarksCoordinator.swift */,
-			);
-			path = TabBarCoordinators;
-			sourceTree = "<group>";
-		};
-		EA11122B28F1B8EC00AA901F /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				EA11122C28F1B8EC00AA901F /* AppStoryboards.swift */,
-				EA11122D28F1B8EC00AA901F /* Storyboard+Ext.swift */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
 		EA11125728F1BBA700AA901F /* SettingsModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,7 +183,10 @@
 			isa = PBXGroup;
 			children = (
 				EA11125B28F1BBA700AA901F /* HomeViewController.swift */,
+				EA11128028F1E04B00AA901F /* UsersTableView+Ext.swift */,
+				EA11128A28F1E8DD00AA901F /* SearchBar+Ext.swift */,
 				EA11125C28F1BBA700AA901F /* HomeViewModel.swift */,
+				EA11128328F1E0F300AA901F /* Cell */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -221,6 +216,85 @@
 			path = BookmarksModule;
 			sourceTree = "<group>";
 		};
+		EA11127428F1D90A00AA901F /* NetworKLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA11127528F1D91300AA901F /* NetworkManger.swift */,
+				EA11128C28F1EABA00AA901F /* RequestRouter.swift */,
+				EA11128628F1E3DB00AA901F /* NewtworkReachability.swift */,
+			);
+			path = NetworKLayer;
+			sourceTree = "<group>";
+		};
+		EA11127728F1DBC800AA901F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EA11128E28F1F38E00AA901F /* NavigationLayer */,
+				EA11127428F1D90A00AA901F /* NetworKLayer */,
+				EA11128228F1E0EA00AA901F /* Models */,
+				EA1112A128F1F39400AA901F /* Extensions */,
+				EA11128428F1E2F700AA901F /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EA11128228F1E0EA00AA901F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA11127228F1D8E100AA901F /* UsersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA11128328F1E0F300AA901F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EA11127C28F1DE8200AA901F /* UsersTableViewCell.swift */,
+				EA11127D28F1DE8200AA901F /* UsersTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EA11128E28F1F38E00AA901F /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA11128F28F1F38E00AA901F /* AppCoordinator.swift */,
+				EA11129328F1F38E00AA901F /* TabBarCoordinators */,
+				EA11129028F1F38E00AA901F /* Storyboard */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		EA11129028F1F38E00AA901F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EA11129128F1F38E00AA901F /* AppStoryboards.swift */,
+				EA11129228F1F38E00AA901F /* Storyboard+Ext.swift */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EA11129328F1F38E00AA901F /* TabBarCoordinators */ = {
+			isa = PBXGroup;
+			children = (
+				EA11129828F1F38E00AA901F /* TabBarCoordinator.swift */,
+				EA11129728F1F38E00AA901F /* HomeCoordinator.swift */,
+				EA11129528F1F38E00AA901F /* SettingsCoordinator.swift */,
+				EA11129428F1F38E00AA901F /* ProfileCoordinator.swift */,
+				EA11129628F1F38E00AA901F /* BookmarksCoordinator.swift */,
+			);
+			path = TabBarCoordinators;
+			sourceTree = "<group>";
+		};
+		EA1112A128F1F39400AA901F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA11127828F1DBDA00AA901F /* UIVC+Ext.swift */,
+				EA11127A28F1DBE900AA901F /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		EAA0319628F1B722004D035D = {
 			isa = PBXGroup;
 			children = (
@@ -247,8 +321,8 @@
 			isa = PBXGroup;
 			children = (
 				EAA031D528F1B72B004D035D /* AppDelegate */,
-				EA11122528F1B8EC00AA901F /* NavigationLayer */,
 				EAA031D728F1B742004D035D /* Modules */,
+				EA11127728F1DBC800AA901F /* Helper */,
 				EAA031D628F1B738004D035D /* Storyboard */,
 				EAA031AE28F1B724004D035D /* Assets.xcassets */,
 				EAA031B328F1B724004D035D /* Info.plist */,
@@ -295,6 +369,7 @@
 		EAA031D728F1B742004D035D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EA11128828F1E55300AA901F /* MainViewController.swift */,
 				EA11126328F1BEC200AA901F /* SplashModule */,
 				EA11125A28F1BBA700AA901F /* HomeModule */,
 				EA11126928F1BFE100AA901F /* BookmarksModule */,
@@ -413,6 +488,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA11127F28F1DE8200AA901F /* UsersTableViewCell.xib in Resources */,
 				EA11126228F1BBED00AA901F /* LaunchScreen.storyboard in Resources */,
 				EAA031AF28F1B724004D035D /* Assets.xcassets in Resources */,
 				EA11123928F1BA3800AA901F /* Main.storyboard in Resources */,
@@ -543,24 +619,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA11129D28F1F38E00AA901F /* BookmarksCoordinator.swift in Sources */,
+				EA11129B28F1F38E00AA901F /* AppCoordinator.swift in Sources */,
+				EA11127B28F1DBE900AA901F /* UITableView+Ext.swift in Sources */,
 				EA11126B28F1BFEF00AA901F /* BookmarksViewController.swift in Sources */,
+				EA11129C28F1F38E00AA901F /* HomeCoordinator.swift in Sources */,
+				EA11129A28F1F38E00AA901F /* TabBarCoordinator.swift in Sources */,
 				EA11127128F1C01300AA901F /* BookmarksViewModel.swift in Sources */,
-				EA11126528F1BF9200AA901F /* BookmarksCoordinator.swift in Sources */,
 				EA11125F28F1BBA700AA901F /* HomeViewModel.swift in Sources */,
-				EA11123328F1B8EC00AA901F /* Storyboard+Ext.swift in Sources */,
-				EA11122E28F1B8EC00AA901F /* SettingsCoordinator.swift in Sources */,
-				EA11123228F1B8EC00AA901F /* AppStoryboards.swift in Sources */,
+				EA11128928F1E55300AA901F /* MainViewController.swift in Sources */,
+				EA11128528F1E2F700AA901F /* Constants.swift in Sources */,
+				EA11129E28F1F38E00AA901F /* SettingsCoordinator.swift in Sources */,
+				EA11127928F1DBDA00AA901F /* UIVC+Ext.swift in Sources */,
+				EA1112A028F1F38E00AA901F /* AppStoryboards.swift in Sources */,
 				EA11125D28F1BBA700AA901F /* HomeViewController.swift in Sources */,
+				EA11128728F1E3DB00AA901F /* NewtworkReachability.swift in Sources */,
+				EA11129928F1F38E00AA901F /* Storyboard+Ext.swift in Sources */,
 				EA11126D28F1BFFD00AA901F /* ProfileViewController.swift in Sources */,
-				EA11122F28F1B8EC00AA901F /* TabBarCoordinator.swift in Sources */,
 				EA11125E28F1BBA700AA901F /* SettingsViewModel.swift in Sources */,
+				EA11129F28F1F38E00AA901F /* ProfileCoordinator.swift in Sources */,
 				EA11126028F1BBA700AA901F /* SettingsViewController.swift in Sources */,
 				EAA031AD28F1B722004D035D /* App_Template.xcdatamodeld in Sources */,
+				EA11128128F1E04B00AA901F /* UsersTableView+Ext.swift in Sources */,
 				EA11126F28F1C00D00AA901F /* ProfileViewModel.swift in Sources */,
-				EA11123128F1B8EC00AA901F /* AppCoordinator.swift in Sources */,
+				EA11127E28F1DE8200AA901F /* UsersTableViewCell.swift in Sources */,
+				EA11127328F1D8E100AA901F /* UsersModel.swift in Sources */,
+				EA11128B28F1E8DD00AA901F /* SearchBar+Ext.swift in Sources */,
+				EA11127628F1D91300AA901F /* NetworkManger.swift in Sources */,
 				EAA031A328F1B722004D035D /* AppDelegate.swift in Sources */,
-				EA11123028F1B8EC00AA901F /* HomeCoordinator.swift in Sources */,
-				EA11126728F1BF9F00AA901F /* ProfileCoordinator.swift in Sources */,
+				EA11128D28F1EABA00AA901F /* RequestRouter.swift in Sources */,
 				EAA031A528F1B722004D035D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -739,6 +826,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -768,6 +856,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

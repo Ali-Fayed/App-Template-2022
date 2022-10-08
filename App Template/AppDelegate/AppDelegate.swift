@@ -8,6 +8,7 @@
 import UIKit
 import CoreData
 import XCoordinator
+import IQKeyboardManagerSwift
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     let window: UIWindow! = UIWindow()
@@ -15,13 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         initAppRouting()
+        keyboardConfiguration()
+        networkReachability()
         return true
     }
     func initAppRouting () {
         window?.overrideUserInterfaceStyle = .dark
         router.setRoot(for: window)
     }
-
+    //MARK: - Network Reachability
+    func networkReachability() {
+        NetwrokReachability.shared.startNetworkMonitoring()
+    }
+    //MARK: - Keyboard Configuration
+    func keyboardConfiguration() {
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+    }
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
