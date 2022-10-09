@@ -56,8 +56,11 @@ class MainViewController: UIViewController {
         return activityIndicator
     }
     func presentRequestErrorAlert(error: Error) {
-        presentAlert(title: "Error", message: "Request failed with error: \(error)", btnTitle: "Ok")
-        isError = true
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else {return}
+            self.presentAlert(title: "Error", message: "Request failed with error: \(error)", btnTitle: "Ok")
+            self.isError = true
+        }
     }
     func reloadTableView(tableView: UITableView) {
         DispatchQueue.main.async { [weak self] in
@@ -65,5 +68,9 @@ class MainViewController: UIViewController {
             self.activityIndicator.stopAnimating()
             tableView.reloadData()
         }
+    }
+    func usersDataRequestValues() -> HomeViewRequestValues {
+        let requestValues = HomeViewRequestValues(page: pageNumber, searchText: Constants.searchWord)
+        return requestValues
     }
 }

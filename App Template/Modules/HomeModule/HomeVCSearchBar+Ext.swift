@@ -9,6 +9,7 @@ import UIKit
 extension HomeViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         viewModel.isSearching = true
-        fetchUsers(page: 1, serachText: searchText)
+        let requestValues = HomeViewRequestValues(page: pageNumber, searchText: searchText)
+        viewModel.fetchUsers(requestValues: requestValues)
     }
 }

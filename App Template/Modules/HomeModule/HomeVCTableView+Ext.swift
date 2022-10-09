@@ -20,20 +20,6 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate, UITabl
         self.tableView.deselectRow(at: indexPath, animated: true)
     }
     func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
-        fetchMoreUsers(indexPaths: indexPaths)
-    }
-    func fetchMoreUsers(indexPaths: [IndexPath]) {
-        for index in indexPaths {
-            if index.row == prefetchIndex {
-                self.tableView.tableFooterView = tableViewFooterActivityIndicator()
-                prefetchIndex = prefetchIndex + 30
-                pageNumber = pageNumber + 1
-                if filterdSearchText().isEmpty {
-                    fetchUsers(page: pageNumber, serachText: "Ali")
-                } else {
-                    fetchUsers(page: pageNumber, serachText: filterdSearchText())
-                }
-            }
-        }
+        viewModel.homeViewDelegate?.updateViewWithMoreData(indexPaths: indexPaths)
     }
 }

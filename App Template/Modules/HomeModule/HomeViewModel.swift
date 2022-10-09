@@ -7,35 +7,38 @@
 
 import Foundation
 import XCoordinator
-
 class HomeViewModel {
     var router: UnownedRouter<HomeTabRoute>?
-    var usersData = [User]()
+    var homeViewDelegate: UpdateViewDelegate?
+    var useCase: HomeUseCase
     var isSearching = false
+    var usersData = [User]()
+    init(useCase: HomeUseCase = HomeUseCase()) {
+        self.useCase = useCase
+    }
     func usersCount() -> Int {
         return usersData.count
     }
     func githubUsers(index: IndexPath) -> User {
         return usersData[index.row]
     }
-    func fetchUsers(page: Int, searchText: String) async throws {
-        let users: [User] = try await withCheckedThrowingContinuation({ continuation in
-            NetworkManger.shared.performRequest(dataModel: Users.self, requestData: RequestRouter.searchUsers(page, searchText)) { result in
-                switch result {
-                case .success(let users):
-                    // Resume with fetched users
-                    continuation.resume(returning: users.items)
-                case .failure(let error):
-                    // Resume with error
-                    continuation.resume(throwing: error)
-                }
-            }
-        })
+    func handleBindingInSearchState(users: [User]) {
         if isSearching {
             self.usersData = users
             isSearching = false
         } else {
             self.usersData.append(contentsOf: users)
+        }
+    }
+    func fetchUsers(requestValues: HomeViewRequestValues) {
+        Task {
+            do {
+                let users = try await useCase.fetchUsers(requestValues: requestValues)
+                handleBindingInSearchState(users: users)
+                homeViewDelegate?.updateViewWithData()
+            } catch {
+                homeViewDelegate?.updateViewWithError(error: error)
+            }
         }
     }
 }

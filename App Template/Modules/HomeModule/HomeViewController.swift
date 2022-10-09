@@ -14,35 +14,21 @@ class HomeViewController: MainViewController {
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        initViewConfig()
-        initViewData()
+        initView()
+        initViewModel()
     }
     // MARK: - UI Methods
-    func initViewConfig() {
+    func initView() {
         initTableViewConfigs(tableView: tableView, rowHeight: 50, cellClass: UsersTableViewCell.self)
         initSearchController(delegate: self, placeHolder: Constants.searchUsersPlaceholder)
         initActivityIndicator()
+        viewModel.homeViewDelegate = self
     }
     @objc override func refreshTableView(refreshControl: UIRefreshControl) {
-        // do some action
-        if isError {
-            initViewData()
-        }
-        isError = false
-        refreshControl.endRefreshing()
+        viewModel.homeViewDelegate?.refreshView()
     }
     // MARK: - Data Methods
-    func initViewData() {
-        fetchUsers(page: pageNumber, serachText: Constants.searchWord)
-    }
-    func fetchUsers(page: Int, serachText: String) {
-        Task {
-            do {
-                try await viewModel.fetchUsers(page: page, searchText: serachText)
-                reloadTableView(tableView: tableView)
-            } catch {
-                presentRequestErrorAlert(error: error)
-            }
-        }
+    func initViewModel() {
+        viewModel.fetchUsers(requestValues: usersDataRequestValues())
     }
 }
