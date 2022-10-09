@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 protocol HomeViewUseCase {
     func fetchUsers(requestValues: HomeViewRequestValues) async throws -> ([User])
 }
@@ -18,4 +19,8 @@ protocol UpdateViewDelegate {
 struct HomeViewRequestValues {
     let page: Int
     let searchText: String
+}
+struct NetworkRequestValues<T: Decodable>{
+    let dataModel: T.Type
+    let requestData: URLRequestConvertible
 }

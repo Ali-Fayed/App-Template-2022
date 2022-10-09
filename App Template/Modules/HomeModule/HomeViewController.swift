@@ -19,7 +19,7 @@ class HomeViewController: MainViewController {
     }
     // MARK: - UI Methods
     func initView() {
-        initTableViewConfigs(tableView: tableView, rowHeight: 50, cellClass: UsersTableViewCell.self)
+        initTableViewConfigs(tableView: tableView, rowHeight: 60, cellClass: UsersTableViewCell.self)
         initSearchController(delegate: self, placeHolder: Constants.searchUsersPlaceholder)
         initActivityIndicator()
         viewModel.homeViewDelegate = self
